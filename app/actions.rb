@@ -9,11 +9,6 @@ get '/' do
     erb(:index)
 end
 
-get '/signup' do
-    @user = User.new
-    erb(:signup)
-end
-
 post '/signup' do
     email = params[:email]
     avatar_url = params[:avatar_url]
@@ -26,6 +21,11 @@ post '/signup' do
     else
         erb(:signup)
     end
+end
+
+get '/signup' do
+    @user = User.new
+    erb(:signup)
 end
 
 get '/login' do
