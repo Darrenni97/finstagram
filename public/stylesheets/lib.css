@@ -60,7 +60,7 @@ main {
   display: inline-block;
 }
 
-.finstagram-post > * {
+.finstagramPost > * {
   margin-bottom: 1em;
 }
 
@@ -100,7 +100,7 @@ main {
   border-color: #FF2600;
 }
 
-.actions .comment-count {
+.actions .commentCount {
   margin-left: auto;
 }
 
