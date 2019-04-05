@@ -24,9 +24,8 @@ post '/signup' do
 end
 
 get '/signup' do
-    # @user = User.new
-    # erb(:signup)
-    "asdf"
+    @user = User.new
+    erb(:signup)
 end
 
 get '/login' do
